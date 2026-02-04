@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu
+ollama
+langchain
+langchain-community
+pyyaml

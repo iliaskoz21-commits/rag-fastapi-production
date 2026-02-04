@@ -1,0 +1,13 @@
+docs_folder: "docs"
+vector_index_file: "faiss_index.pkl"
+chunk_data_file: "chunk_texts.pkl"
+
+chunk_size: 300
+chunk_overlap: 50
+vector_k: 5
+keyword_k: 5
+
+embedding_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+
+ollama_model: "mistral"
+ollama_temperature: 0.2
