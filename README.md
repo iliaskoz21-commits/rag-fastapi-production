@@ -1,32 +1,24 @@
-@"
+# Production-Ready RAG System (FastAPI + FAISS)
 
-\# Production-Ready RAG System with FastAPI, FAISS \& Local/Remote LLMs
+A production-style Retrieval-Augmented Generation (RAG) system built with **FastAPI**, **FAISS**, and **Sentence Transformers**, supporting **local and remote LLMs** (Ollama, OpenAI, Groq).
 
+This project focuses on **clarity, modularity, and real-world RAG patterns**, including document ingestion, persistent vector storage, and hybrid retrieval.
 
+---
 
-\## Project Description
+## 🚀 Features
 
-This project is a production-ready Retrieval-Augmented Generation (RAG) system built in Python.
+- FastAPI backend with REST endpoints
+- Hybrid retrieval (Vector + Keyword search)
+- Persistent FAISS index (saved to disk)
+- Document ingestion pipeline (PDF / TXT)
+- Local LLM support via **Ollama**
+- Config-driven setup (`config.yaml`)
+- Simple web-based chat UI
+- Modular, production-oriented project structure
 
-It allows you to upload documents, index them with embeddings, and query a local or remote LLM.
+---
 
-
-
-\## Tech Stack
-
-\- Python 3.11
-
-\- FastAPI
-
-\- FAISS (vector search)
-
-\- Sentence Transformers
-
-\- Ollama (local LLM)
-
-\- Docker (optional)
-
-"@ > README.md
-
+## 🧠 Architecture Overview
 
 
