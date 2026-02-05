@@ -1,0 +1,15 @@
+# Deployment Instructions
+
+1. Build Docker image
+   docker build -t rag-fastapi-agent .
+
+2. Run locally
+   docker run -p 8000:8000 rag-fastapi-agent
+
+3. Deploy to cloud (example)
+   - Fly.io
+   - Render
+   - Railway
+   - AWS ECS / Fargate
+
+Make sure docs folder and FAISS index are persisted.
